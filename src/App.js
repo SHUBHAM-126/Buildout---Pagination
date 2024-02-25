@@ -19,7 +19,7 @@ function App() {
       }
       catch (err) {
         console.log(err)
-        window.alert(err)
+        window.alert("failed to fetch data")
       }
     }
     fetchEmployees()
