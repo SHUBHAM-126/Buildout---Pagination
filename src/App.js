@@ -19,6 +19,7 @@ function App() {
       }
       catch (err) {
         console.log(err)
+        window.alert(err)
       }
     }
     fetchEmployees()
