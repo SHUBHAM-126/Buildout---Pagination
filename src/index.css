@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.table-wrapper{
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border-bottom:2px solid green;
+}
+
+th{
+  background:green;
+  color:#fff;
+}
+
+table th,
+table td{
+  padding:12px 20px;
+}
+
+tbody tr{
+  border-bottom:1px solid #ccc;
+}
+
+.pagination-wrapper{
+  justify-content: center;
+  display: flex;
+  gap:24px;
+  align-items:center;
+  margin-top:20px;
+}
+
+button{
+  background: green;
+  color:#fff;
+  border:1px solid green;
+  font-size:16px;
+  padding:10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
